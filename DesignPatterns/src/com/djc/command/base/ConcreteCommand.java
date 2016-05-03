@@ -7,7 +7,7 @@ public class ConcreteCommand implements Command {
     /**
      * 持有相应的接受者对象
      */
-    private Receiver receiver = nul;
+    private Receiver receiver = null;
 
     /**
      * 命令对象可以有自己的状态
